@@ -2,6 +2,10 @@
 	"name": "@yannickfricke/yang-language",
 	"module": "./src/index.ts",
 	"type": "module",
+	"scripts": {
+		"start": "bun run ./src/index.ts",
+		"watch": "bun run --watch ./src/index.ts"
+	},
 	"dependencies": {},
 	"devDependencies": {
 		"@types/bun": "latest"
